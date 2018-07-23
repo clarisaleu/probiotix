@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lesson1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/lesson_1" />
+    <item
+        android:id="@+id/lesson2"
+        android:title="@string/lesson_2" />
+    <item
+        android:id="@+id/lessonThree"
+        android:title="@string/lesson_3" />
+    <item
+        android:id="@+id/lessonFour"
+        android:title="@string/lesson_4" />
+    <item
+        android:id="@+id/lessonFive"
+        android:title="@string/lesson_5" />
+    <item
+        android:id="@+id/lessonSix"
+        android:title="@string/lesson_6" />
+    <item
+        android:id="@+id/lessonSeven"
+        android:title="@string/lesson_7" />
+    <item
+        android:id="@+id/lessonEight"
+        android:title="@string/lesson_8" />
+    <item
+        android:id="@+id/lessonNine"
+        android:title="@string/lesson_9" />
+    <item
+        android:id="@+id/lessonTen"
+        android:title="@string/lesson_10" />
+    <item
+        android:id="@+id/lessonEleven"
+        android:title="@string/lesson_11" />
+    <item
+        android:id="@+id/lessonTwelve"
+        android:title="@string/lesson_12" />
+</menu>

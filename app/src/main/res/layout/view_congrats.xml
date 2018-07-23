@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/submitButton4"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pill"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:padding="@dimen/default_padding"
+        android:text="@string/title2_home"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo2"
+        android:progress="100"
+        android:progressBackgroundTint="#9c9acf"
+        android:progressTint="#46458e"/>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/logo_header"/>
+
+
+    <Button
+        android:id="@+id/submitButton3"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar"
+        android:background="@drawable/pill"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:padding="@dimen/default_padding"
+        android:text="@string/review"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/submitButton2"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/submitButton3"
+        android:background="@drawable/pill"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:padding="@dimen/default_padding"
+        android:text="next lesson"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/beaker"
+        android:layout_width="306dp"
+        android:layout_height="230dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="151dp"
+        android:src="@drawable/beaker" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/raleway_medium"
+
+        android:text="You Completed Lesson 1"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:fontFamily="@font/raleway_bold"
+        android:text="GREAT JOB!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/beaker"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/raleway"
+        android:text="+1,000 KP (Knowledge Points)"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/beaker"
+        android:layout_marginTop="-151dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:src="@drawable/share" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/beaker"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="-151dp"
+        android:fontFamily="@font/raleway"
+        android:text="Share your progress"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</RelativeLayout>

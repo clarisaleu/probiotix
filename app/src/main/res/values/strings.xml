@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">probiotix</string>
+    <string name="title_home">Home</string>
+    <string name="title2_home">home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="progress">progress</string>
+    <string name="next">next</string>
+    <string name="start">start learning</string>
+    <string name="submit">submit</string>
+    <string name="close">close</string>
+    <string name="correct">correct!</string>
+    <string name="incorrect">incorrect!</string>
+
+    <string name="lesson_1">Lesson 1</string>
+    <string name="lesson_2">Lesson 2</string>
+    <string name="lesson_3">Lesson 3</string>
+    <string name="lesson_4">Lesson 4</string>
+    <string name="lesson_5">Lesson 5</string>
+    <string name="lesson_6">Lesson 6</string>
+    <string name="lesson_7">Lesson 7</string>
+    <string name="lesson_8">Lesson 8</string>
+    <string name="lesson_9">Lesson 9</string>
+    <string name="lesson_10">Lesson 10</string>
+    <string name="lesson_11">Lesson 11</string>
+    <string name="lesson_12">Lesson 12</string>
+
+    <string name="retry">try again!</string>
+    <string name="review">review</string>
+
+</resources>

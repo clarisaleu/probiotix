@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/logo_header" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pill"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:padding="@dimen/default_padding"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/progressTitle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="@font/raleway_bold"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/default_padding"-->
+        <!--android:text="@string/progress"-->
+        <!--android:textSize="24sp" />-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo2"
+        android:progress="50"
+        android:progressBackgroundTint="#9c9acf"
+        android:progressTint="#46458e" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar"></FrameLayout>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/closeButton"-->
+        <!--android:layout_width="128dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@drawable/pill"-->
+        <!--android:fontFamily="@font/raleway_medium"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/default_padding"-->
+        <!--android:text="@string/submit"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="24sp" />-->
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/default_padding"
+        android:text="@string/close"
+
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="gone"/>
+
+
+
+    <com.angelhack.probiotix.probiotix.lessons.CorrectFooter
+        android:id="@+id/correctFooter"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+    <com.angelhack.probiotix.probiotix.lessons.IncorrectFooter
+        android:id="@+id/incorrectFooter"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+    <com.angelhack.probiotix.probiotix.lessons.RetryFooter
+        android:id="@+id/retryFooter"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

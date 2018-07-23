@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding">
+
+    <ImageView
+        android:id="@+id/volumeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/baseline_volume_up_black_18dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/selectionTitle"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/volumeImage"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/choiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectionTitle"
+        android:layout_toLeftOf="@id/volumeImage"
+        android:gravity="center"
+        android:text="(choice title)"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/choiceTitle"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/default_padding"></LinearLayout>
+
+</RelativeLayout>

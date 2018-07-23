@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Lesson 1",
+    "questions": [
+      {
+        "type": "SimpleSelect",
+        "text": "Staphylococcus aureus",
+        "audioFile": "staphylococcus_aureus",
+        "answers": [
+          {
+            "text": "Gram-positive",
+            "correct": true
+          },
+          {
+            "text": "Gram-negative",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "SelectAll",
+        "text": "Gram-positive organisms",
+        "answers": [
+          {
+            "text": "Staphylococcus aureus",
+            "correct": true
+          },
+          {
+            "text": "Streptococcus spp.",
+            "correct": true
+          },
+          {
+            "text": "Escherichia coli",
+            "correct": false
+          },
+          {
+            "text": "Pseudomonas aeruginosa",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "Matching",
+        "text": "Match the bacteria types",
+        "answers": [
+          {
+            "text": "Gram-positive cocci in clusters",
+            "matchID": 1
+          },
+          {
+            "text": "Streptococcus spps",
+            "matchID": 2
+          },
+          {
+            "text": "Gram-positive cocci in pairs and chains",
+            "matchID": 2
+          },
+          {
+            "text": "Staphylococcus aureus",
+            "matchID": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lesson 2",
+    "questions": [
+      {
+        "type": "SimpleSelect",
+        "text": "Example question",
+        "answers": [
+          {
+            "text": "This is a question",
+            "correct": true
+          },
+          {
+            "text": "This is a question",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "type": "SimpleSelect",
+        "text": "Example question",
+        "answers": [
+          {
+            "text": "This is a question",
+            "correct": true
+          },
+          {
+            "text": "This is a question",
+            "correct": true
+          }
+        ]
+      }
+    ]
+  }
+]
