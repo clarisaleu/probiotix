@@ -1,6 +1,6 @@
 ![alt text][logo]
 
-[logo]: C:\Users\clari\repos\angel_hack\app\src\main\res\drawable\logo_scaled.png "probiotix"
+[logo]: angel_hack\app\src\main\res\drawable\logo_scaled.png "probiotix"
 
 
 This app aims to improve medical students retention when studying for their board or qualifying exams.
