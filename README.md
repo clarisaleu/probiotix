@@ -1,4 +1,4 @@
- ![Alt text](ogo_scaled.png)
+ ![Alt text](logo.png)
 
 
 This app aims to improve medical students retention when studying for their board or qualifying exams.
