@@ -1,4 +1,4 @@
- ![ScreenShot](logo.jpg)
+ ![ScreenShot](http://logo.jpg)
 
 
 This app aims to improve medical students retention when studying for their board or qualifying exams.
