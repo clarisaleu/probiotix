@@ -1,4 +1,4 @@
- <img src="angel_hack\app\src\main\res\drawable\logo_scaled.png">
+ ![Alt text](angel_hack\app\src\main\res\drawable\logo_scaled.png)
 
 
 This app aims to improve medical students retention when studying for their board or qualifying exams.
